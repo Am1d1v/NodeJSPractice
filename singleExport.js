@@ -13,3 +13,8 @@ console.log(exports === module.exports);
 
 */
 
+function greeting(name){
+    console.log('Hello,', name)
+}
+
+module.exports = greeting;
