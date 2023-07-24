@@ -9,4 +9,14 @@ function printHello(){
     console.log('Hello');
 }
 
-export {printHello};
+function printHi(){
+    console.log('Hi');
+} 
+
+export {printHello, printHi};
+
+
+const URL = 'https:// ';
+const USERNAME = 'admin';
+const PASSWORD = 'admin_password'
+export { URL, USERNAME, PASSWORD};
