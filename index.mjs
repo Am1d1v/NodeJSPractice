@@ -20,3 +20,9 @@ const URL = 'https:// ';
 const USERNAME = 'admin';
 const PASSWORD = 'admin_password'
 export { URL, USERNAME, PASSWORD};
+
+
+const season = 'fall';
+const temperature = 10;
+
+export {season, temperature};
